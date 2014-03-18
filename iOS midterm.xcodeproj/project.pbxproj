@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF38972918D7F1C60006EB78 /* f1.png in Resources */ = {isa = PBXBuildFile; fileRef = BF38972618D7F1C60006EB78 /* f1.png */; };
+		BF38972B18D7F28C0006EB78 /* b1.png in Resources */ = {isa = PBXBuildFile; fileRef = BF38972A18D7F28C0006EB78 /* b1.png */; };
 		BF64A07218D7AA7D00F5D384 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF64A07118D7AA7D00F5D384 /* Foundation.framework */; };
 		BF64A07418D7AA7D00F5D384 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF64A07318D7AA7D00F5D384 /* CoreGraphics.framework */; };
 		BF64A07618D7AA7D00F5D384 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF64A07518D7AA7D00F5D384 /* UIKit.framework */; };
@@ -24,6 +26,10 @@
 		BF64A09A18D7AA7D00F5D384 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF64A07518D7AA7D00F5D384 /* UIKit.framework */; };
 		BF64A0A218D7AA7D00F5D384 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF64A0A018D7AA7D00F5D384 /* InfoPlist.strings */; };
 		BF64A0A418D7AA7D00F5D384 /* iOS_midtermTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF64A0A318D7AA7D00F5D384 /* iOS_midtermTests.m */; };
+		BF954CAC18D8A2050097139C /* c1.png in Resources */ = {isa = PBXBuildFile; fileRef = BF954CAA18D8A2050097139C /* c1.png */; };
+		BF954CAD18D8A2050097139C /* c2.png in Resources */ = {isa = PBXBuildFile; fileRef = BF954CAB18D8A2050097139C /* c2.png */; };
+		BF954CAF18D8A35A0097139C /* f2.png in Resources */ = {isa = PBXBuildFile; fileRef = BF954CAE18D8A35A0097139C /* f2.png */; };
+		BF954CB118D8A3C00097139C /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = BF954CB018D8A3C00097139C /* flag.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF38972618D7F1C60006EB78 /* f1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = f1.png; sourceTree = "<group>"; };
+		BF38972A18D7F28C0006EB78 /* b1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b1.png; sourceTree = "<group>"; };
 		BF64A06E18D7AA7D00F5D384 /* iOS midterm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS midterm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF64A07118D7AA7D00F5D384 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BF64A07318D7AA7D00F5D384 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,6 +68,10 @@
 		BF64A09F18D7AA7D00F5D384 /* iOS midtermTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS midtermTests-Info.plist"; sourceTree = "<group>"; };
 		BF64A0A118D7AA7D00F5D384 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BF64A0A318D7AA7D00F5D384 /* iOS_midtermTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_midtermTests.m; sourceTree = "<group>"; };
+		BF954CAA18D8A2050097139C /* c1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c1.png; sourceTree = "<group>"; };
+		BF954CAB18D8A2050097139C /* c2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c2.png; sourceTree = "<group>"; };
+		BF954CAE18D8A35A0097139C /* f2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = f2.png; sourceTree = "<group>"; };
+		BF954CB018D8A3C00097139C /* flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flag.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +133,12 @@
 		BF64A07918D7AA7D00F5D384 /* iOS midterm */ = {
 			isa = PBXGroup;
 			children = (
+				BF954CAA18D8A2050097139C /* c1.png */,
+				BF954CAB18D8A2050097139C /* c2.png */,
+				BF38972A18D7F28C0006EB78 /* b1.png */,
+				BF954CAE18D8A35A0097139C /* f2.png */,
+				BF954CB018D8A3C00097139C /* flag.png */,
+				BF38972618D7F1C60006EB78 /* f1.png */,
 				BF64A08218D7AA7D00F5D384 /* AppDelegate.h */,
 				BF64A08318D7AA7D00F5D384 /* AppDelegate.m */,
 				BF64A08518D7AA7D00F5D384 /* Main.storyboard */,
@@ -240,10 +258,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF38972918D7F1C60006EB78 /* f1.png in Resources */,
+				BF954CB118D8A3C00097139C /* flag.png in Resources */,
 				BF64A07E18D7AA7D00F5D384 /* InfoPlist.strings in Resources */,
 				BF64A09118D7AA7D00F5D384 /* Images.xcassets in Resources */,
+				BF38972B18D7F28C0006EB78 /* b1.png in Resources */,
+				BF954CAC18D8A2050097139C /* c1.png in Resources */,
 				BF64A08F18D7AA7D00F5D384 /* Spaceship.png in Resources */,
+				BF954CAD18D8A2050097139C /* c2.png in Resources */,
 				BF64A08718D7AA7D00F5D384 /* Main.storyboard in Resources */,
+				BF954CAF18D8A35A0097139C /* f2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +496,7 @@
 				BF64A0A918D7AA7D00F5D384 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF64A0AA18D7AA7D00F5D384 /* Build configuration list for PBXNativeTarget "iOS midtermTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +505,7 @@
 				BF64A0AC18D7AA7D00F5D384 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
